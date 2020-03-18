@@ -50,7 +50,7 @@ for version in ${STORM_VERSIONS[@]}; do
 done
 
 echo -n "Generating symlinks for current versions.. "
-latest_version=$(echo "${STORM_VERSIONS[@]}" | tr ' ' '\n\' | uniq | sort -n | head -n1)
+latest_version=$(echo "${STORM_VERSIONS[@]}" | tr ' ' '\n\' | uniq | sort -n | tail -n1)
 latest="${latest_version}-${SUFFIX}"
 [ -e current ] && rm current || true
 ln -s ${latest} current

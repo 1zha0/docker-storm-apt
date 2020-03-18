@@ -1,4 +1,4 @@
-# storm 1.1 with Daily `apt-get update & upgrade`
+# storm 1.1 with daily `apt-get update & upgrade`
 
 FROM storm:1.1
 

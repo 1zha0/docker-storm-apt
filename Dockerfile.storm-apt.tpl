@@ -1,4 +1,4 @@
-# storm %STORM_VERSION% with Daily `apt-get update & upgrade`
+# storm %STORM_VERSION% with daily `apt-get update & upgrade`
 
 FROM storm:%STORM_VERSION%
 

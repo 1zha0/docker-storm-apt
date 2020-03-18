@@ -1,4 +1,4 @@
-# Storm with Daily `apt-get update & upgrade`
+# Storm with daily `apt-get update & upgrade`
 
 This is a clone of Dockerfile for [Storm 1.1, 1.2 & 2.1](https://storm.apache.org/) with `apt-get update & upgrade` applied.
 
