@@ -2,7 +2,7 @@
 
 FROM storm:1.2
 
-# This build runs `apt-get update` against official Amazon corretto,
+# This build runs `apt-get update` against Docker official Storm image,
 # to mitigate any known vulnerabilities due to gaps caused by
 # offical image release cycle.
 
