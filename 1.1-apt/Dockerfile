@@ -10,7 +10,7 @@ FROM storm:1.1
 RUN set -eux \
     && apt-get update \
     && apt-get upgrade -y \
-    && rm -rf /var/lib/{apt,dpkg,cache,log}; \
+    && rm -rf /var/lib/apt/lists/*; \
 # Verify that gosu binary works
     gosu nobody true
 
