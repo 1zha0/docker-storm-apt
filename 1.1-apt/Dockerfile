@@ -14,4 +14,6 @@ RUN set -eux \
 # Verify that gosu binary works
     gosu nobody true
 
+USER storm
+
 # EOF
