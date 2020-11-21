@@ -1,6 +1,6 @@
 # Storm with daily `apt-get update & upgrade`
 
-This is a clone of Dockerfile for [Storm 1.1, 1.2 & 2.1](https://storm.apache.org/) with `apt-get update & upgrade` applied.
+This is a clone of Dockerfile for [Storm 1.1, 1.2, 2.1 & 2.2](https://storm.apache.org/) with `apt-get update & upgrade` applied.
 
 ## Tags
 
@@ -8,6 +8,7 @@ This is a clone of Dockerfile for [Storm 1.1, 1.2 & 2.1](https://storm.apache.or
 - 1.1-apt
 - 1.2-apt
 - 2.1-apt
+- 2.2-apt
 
 ## Testing
 
