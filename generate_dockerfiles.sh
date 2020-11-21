@@ -7,7 +7,7 @@ set -o pipefail -e
 # test-image.sh.tpl
 # test-image.yaml.tpl
 
-STORM_VERSIONS=(1.1 1.2 2.1)
+STORM_VERSIONS=(1.1 1.2 2.1 2.2)
 SUFFIX="apt"
 
 gen_dockerfile() {

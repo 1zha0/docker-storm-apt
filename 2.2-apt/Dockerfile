@@ -1,6 +1,6 @@
-# storm 2.1 with daily `apt-get update & upgrade`
+# storm 2.2 with daily `apt-get update & upgrade`
 
-FROM storm:2.1
+FROM storm:2.2
 
 # This build runs `apt-get update` against Docker official Storm image,
 # to mitigate any known vulnerabilities due to gaps caused by
